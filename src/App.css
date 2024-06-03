@@ -1,0 +1,18 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.users-list {
+  width: 100%;
+
+  &.-has-colors{
+    tr:nth-child(even) {
+    background-color: lightgrey
+  }
+  }
+}
+
